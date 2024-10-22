@@ -1,6 +1,6 @@
 {
   "name": "@machinateur/the-printer",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "The printer, a prototype. Create PDF documents and images from HTML content using puppeteer and headless-chrome.",
   "main": "the-printer.js",
   "scripts": {
