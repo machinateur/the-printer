@@ -20,6 +20,9 @@
     "minimist": "^1.2.8",
     "puppeteer": "^23.6.0"
   },
+  "devDependencies": {
+    "np": "^10.0.7"
+  },
   "engines": {
     "node": "18.18.0"
   },
