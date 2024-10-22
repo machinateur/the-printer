@@ -1,0 +1,31 @@
+{
+  "name": "@machinateur/the-printer",
+  "version": "1.0.0",
+  "description": "The printer, a prototype. Create PDF documents and images from HTML content using puppeteer and headless-chrome.",
+  "main": "the-printer.js",
+  "scripts": {
+    "test": "echo \"Warning: No test specified!\" && exit 0"
+  },
+  "keywords": [
+    "print",
+    "pdf",
+    "image",
+    "puppeteer",
+    "headless-chrome"
+  ],
+  "author": "machinateur",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1",
+    "minimist": "^1.2.8",
+    "puppeteer": "^23.6.0"
+  },
+  "engines": {
+    "node": "18.18.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "the-printer.js"
+  ]
+}

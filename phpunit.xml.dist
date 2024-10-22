@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap        = "tests/bootstrap.php"
+         backupGlobals    = "false"
+         colors           = "true"
+         processIsolation = "false"
+         stopOnFailure    = "false"
+         beStrictAboutOutputDuringTests          = "true"
+         beStrictAboutTestsThatDoNotTestAnything = "true"
+         beStrictAboutCoverageMetadata           = "false"
+         displayDetailsOnIncompleteTests         = "true"
+         displayDetailsOnSkippedTests            = "true"
+>
+    <testsuites>
+        <testsuite name="Project Test Suite">
+            <directory suffix="Test.php">tests/</directory>
+        </testsuite>
+    </testsuites>
+
+    <source>
+        <include>
+            <directory suffix=".php">src/</directory>
+        </include>
+    </source>
+
+    <coverage includeUncoveredFiles     = "true"
+              pathCoverage              = "false"
+              ignoreDeprecatedCodeUnits = "false"
+              disableCodeCoverageIgnore = "false"
+    >
+    </coverage>
+
+    <php>
+        <env name="APP_ENV" value="test"/>
+    </php>
+</phpunit>

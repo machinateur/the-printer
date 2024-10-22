@@ -1,0 +1,11 @@
+# Project
+
+.idea/
+
+# Library
+
+vendor/
+node_modules/
+
+# Test
+.phpunit.result.cache
