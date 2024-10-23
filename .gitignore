@@ -12,3 +12,7 @@ node_modules/
 
 # Test
 .phpunit.result.cache
+
+docs/
+var/phpdoc/
+

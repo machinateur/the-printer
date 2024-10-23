@@ -39,6 +39,9 @@ Note that the express app is also bundled with the composer package.
   - All the well-known formats supported by chrome are available
 - Full test coverage
   - The test-suite included with this library is well-procured
+- Documentation
+  - Many documentation resources are available
+  - The code self-contains documentation (can be used to [generate an API reference](#generating-phpdoc))
 
 ## Usage
 
@@ -331,6 +334,17 @@ composer run-script lint
 ```
 
 This command maps to `./vendor/bin/phpstan analyze` using the [`phpstan.neon`](phpstan.neon) file from the project root.
+
+### Generating `phpdoc`
+
+It's possible to generate `phpdoc` with [phpDocumentor](https://docs.phpdoc.org/guide/getting-started/installing.html#installation):
+
+```bash
+rm -r docs/ var/phpdoc/
+docker run --rm -v "$(pwd):/data" 'phpdoc/phpdoc:3'
+```
+
+The resulting documentation will be placed in `docs/`, the case is located at `var/phpdoc/`, both are ignored from git.
 
 ## License
 
