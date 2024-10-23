@@ -267,8 +267,8 @@ It's possible to run the tests in different versions of PHP without the need to 
 ```bash
 PHP_VERSION=8.1
 
-docker run --rm -v $(pwd):/app -w /app composer install
-docker run --rm -v $(pwd):/app -w /app php:${PHP_VERSION} vendor/bin/phpunit
+docker run --rm -v "$(pwd):/app" -w /app 'composer'           install
+docker run --rm -v "$(pwd):/app" -w /app "php:${PHP_VERSION}" vendor/bin/phpunit
 ```
 
 See [this guide](https://www.shiphp.com/blog/testing-multiple-versions-of-php) for some more details.
