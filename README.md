@@ -23,6 +23,23 @@ npm i --save @machinateur/the-printer
 
 Note that the express app is also bundled with the composer package.
 
+## Advantages
+
+- Support, not only for `pdf` documents, but also images (`png`, `jpeg`, `webp`)
+- Design advanced PDF layouts using modern web technologies (HTML + CSS)
+  - All the latest features, like `flex` etc., are available
+- Preview design directly in chrome-based browsers `document.print()` dialog
+  - No need for lengthy feedback and testing loops
+- Large number of options available ([see "Supported endoints"](#supported-endpoints))
+  - Full control over the printing process result
+- JavaScript support (images only)
+  - _You've been warned_ :)
+- Integrate fonts in various formats without the hardships (i.e. font-caches, loading delay, etc.)
+  - The printing process will wait for fonts to load by default
+  - All the well-known formats supported by chrome are available
+- Full test coverage
+  - The test-suite included with this library is well-procured
+
 ## Usage
 
 ### Running the express app
