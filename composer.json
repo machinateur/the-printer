@@ -1,6 +1,13 @@
 {
     "name": "machinateur/the-printer",
     "description": "The printer, a prototype. Create PDF documents and images from HTML content using puppeteer and headless-chrome.",
+    "keywords": [
+        "print",
+        "pdf",
+        "image",
+        "puppeteer",
+        "headless-chrome"
+    ],
     "type": "library",
     "license": "MIT",
     "autoload": {
