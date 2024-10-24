@@ -9,7 +9,7 @@ The PHP SDK has zero package dependencies, to keep it as simple as possible.
 ## Requirements
 
 - At least PHP `>=8.1` is required
-  - Extensions `ext-json` and `ext-curl` are reqired
+  - Extensions `ext-json` and `ext-curl` are required
 - Node LTS `18` is recommended
 - Use NPM or Yarn
 - Chrome (headless)
