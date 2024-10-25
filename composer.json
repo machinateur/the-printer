@@ -39,7 +39,8 @@
         "slim/slim": "^4.12",
         "symfony/process": "^6.3",
         "symfony/string": "^6.3",
-        "slim/psr7": "^1.6"
+        "slim/psr7": "^1.6",
+        "machinateur/imagickompare": "@dev"
     },
     "scripts": {
         "tests": "phpunit",
