@@ -31,7 +31,6 @@ use Machinateur\ThePrinter\Client;
 use Machinateur\ThePrinter\Configuration\ImageConfiguration;
 
 require_once \dirname(__DIR__, 2) . '/vendor/autoload.php';
-require_once __DIR__ . '/lib_imagick.php';
 
 // Prepare input arguments.
 \array_shift($argv);

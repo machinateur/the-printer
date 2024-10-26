@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df7f2bdf0bdb69ed8ca2110ecfce81b9",
+    "content-hash": "b4aa6143a38d2d54567102633ac7ddf5",
     "packages": [],
     "packages-dev": [
         {
@@ -62,6 +62,55 @@
                 "source": "https://github.com/php-fig/http-message-util/tree/1.1.5"
             },
             "time": "2020-11-24T22:02:12+00:00"
+        },
+        {
+            "name": "machinateur/imagickompare",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/machinateur/imagickompare.git",
+                "reference": "bec71719958108122e7cc19b1dfc35ac8a8f665c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/machinateur/imagickompare/zipball/bec71719958108122e7cc19b1dfc35ac8a8f665c",
+                "reference": "bec71719958108122e7cc19b1dfc35ac8a8f665c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-imagick": "*",
+                "php": ">=7.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib_imagick.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "machinateur",
+                    "email": "hello@machinateur.dev",
+                    "homepage": "https://machinateur.dev"
+                }
+            ],
+            "description": "A little PHP function that can compare PDFs and images using the Imagick PHP extension.",
+            "keywords": [
+                "compare",
+                "image-magick",
+                "imagick",
+                "pdf",
+                "png"
+            ],
+            "support": {
+                "issues": "https://github.com/machinateur/imagickompare/issues",
+                "source": "https://github.com/machinateur/imagickompare/tree/1.0.0"
+            },
+            "time": "2024-10-26T15:54:16+00:00"
         },
         {
             "name": "myclabs/deep-copy",
