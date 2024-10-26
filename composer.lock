@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e26b22748653c6a9fb146eae6c0f891d",
+    "content-hash": "b4aa6143a38d2d54567102633ac7ddf5",
     "packages": [],
     "packages-dev": [
         {
@@ -65,23 +65,22 @@
         },
         {
             "name": "machinateur/imagickompare",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/machinateur/imagickompare.git",
-                "reference": "3dbff7f263c2b73911779708b8c8fe33ec7c0550"
+                "reference": "bec71719958108122e7cc19b1dfc35ac8a8f665c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/machinateur/imagickompare/zipball/3dbff7f263c2b73911779708b8c8fe33ec7c0550",
-                "reference": "3dbff7f263c2b73911779708b8c8fe33ec7c0550",
+                "url": "https://api.github.com/repos/machinateur/imagickompare/zipball/bec71719958108122e7cc19b1dfc35ac8a8f665c",
+                "reference": "bec71719958108122e7cc19b1dfc35ac8a8f665c",
                 "shasum": ""
             },
             "require": {
                 "ext-imagick": "*",
                 "php": ">=7.4"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
@@ -109,9 +108,9 @@
             ],
             "support": {
                 "issues": "https://github.com/machinateur/imagickompare/issues",
-                "source": "https://github.com/machinateur/imagickompare/tree/main"
+                "source": "https://github.com/machinateur/imagickompare/tree/1.0.0"
             },
-            "time": "2024-10-25T00:43:38+00:00"
+            "time": "2024-10-26T15:54:16+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2959,9 +2958,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "machinateur/imagickompare": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
